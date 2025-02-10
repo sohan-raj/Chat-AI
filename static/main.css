@@ -1,0 +1,36 @@
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#message-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.user-message {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: right;
+}
+
+.ai-message {
+    background-color: #e0f7fa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.message-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.message-content {
+    margin: 5px 0;
+}
